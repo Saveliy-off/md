@@ -1,0 +1,51 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body, html {
+	height: 100%;
+	overflow-x: hidden;
+}
+body {
+	min-width: 319px;
+	width: 100%;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 1em;
+	font-weight: 400;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+input[type="submit"], button, label {
+    cursor: pointer;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+button {
+    font-family: inherit;
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+input {
+	background: none;
+	outline: none;
+	border: 1px solid #000;
+}
+a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #EF626C;
+	transition: color .2s linear;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
